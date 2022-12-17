@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style type="text/css">/* Font */
+            @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+            
+            /* Design */
+            *,
+            *::before,
+            *::after {
+              box-sizing: border-box;
+            }
+            
+            html {
+              background-color: #38383856;
+            }
+            
+            body {
+              color: #272727;
+              font-family: 'Quicksand', serif;
+              font-style: normal;
+              font-weight: 400;
+              letter-spacing: 0;
+              padding: 1rem;
+            }
+            
+            .main{
+              max-width: 1200px;
+              margin: 0 auto;
+            }
+            
+            h1 {
+                font-size: 24px;
+                font-weight: 400;
+                text-align: center;
+            }
+            .center {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+              }
+            
+            img {
+              height: auto;
+              max-width: 70%;
+              padding: 40px;
+              vertical-align: middle;
+              /*border-radius:2em 1em 4em / 0.5em 3em;*/
+              border-radius: 50%;
+              border-bottom: #EF8D9C;
+              background-image: -moz-linear-gradient(rgb(227, 231, 234));
+              background-color: #dfe9ee;
+            
+             
+              
+            }
+            
+            .btn {
+              color: #ffffff;
+              padding: 0.8rem;
+              font-size: 14px;
+              text-transform: uppercase;
+              border-radius: 4px;
+              font-weight: 400;
+              display: block;
+              width: 100%;
+              cursor: pointer;
+              border: 1px solid rgba(255, 255, 255, 0.2);
+              background: transparent;
+            }
+            
+            .btn:hover {
+              background-color: rgba(255, 255, 255, 0.12);
+            }
+            
+            .cards {
+              display: flex;
+              flex-wrap: wrap;
+              list-style: none;
+              margin: 0;
+              padding: 0;
+            }
+            
+            .cards_item {
+              display: flex;
+              padding: 1rem;
+            }
+            
+            @media (min-width: 40rem) {
+              .cards_item {
+                width: 50%;
+              }
+            }
+            
+            @media (min-width: 56rem) {
+              .cards_item {
+                width: 33.3333%;
+              }
+            }
+            
+            .card {
+              /*background-color: rgba(208, 230, 236, 0.318);*/
+              background-color: rgb(0, 11, 14);
+              border-radius: 0.25rem;
+              box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+              display: flex;
+              flex-direction: column;
+              overflow: hidden;
+            }
+            
+            .card_content {
+              padding: 1rem;
+              /*background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);*/
+              background-color: rgb(1, 9, 11);
+            }
+            
+            .card_title {
+              color: #ffffff;
+              font-size: 1.1rem;
+              font-weight: 700;
+              letter-spacing: 1px;
+              text-transform: capitalize;
+              margin: 0px;
+            }
+            
+            .card_text {
+              color: #ffffff;
+              font-size: 0.875rem;
+              line-height: 1.5;
+              margin-bottom: 1.25rem;    
+              font-weight: 400;
+            }
+            .made_by{
+              font-weight: 400;
+              font-size: 13px;
+              margin-top: 35px;
+              text-align: center;
+            }</style>
+        
+    </head>
+    <body>
+       <div class="main">
+           
+            <ul class="cards">
+              <li class="cards_item">
+                <div class="card">
+                  <div class="card_image"><img src="https://github.com/SourcemonqTechnologies/Website/blob/main/152753.png?raw=true"alt="Android" class="center"></div>
+                  <div class="card_content">
+                    <h2 class="card_title">Mobile Application Development</h2>
+                    <p class="card_text">Build customers and your idea & business by mobile application</p>
+                    <button class="btn card_btn"><a href="#">Read More</a></button>
+                  </div>
+                </div>
+              </li>
+              <li class="cards_item">
+                <div class="card">
+                  <div class="card_image"><img src="https://github.com/SourcemonqTechnologies/Website/blob/main/3474353-72cb9d35.png?raw=true"alt="Application development" class="center"></div>
+                  <div class="card_content">
+                    <h2 class="card_title">Software & Application Development</h2>
+                    <p class="card_text">Software and Tools to drive your business to new heights</p>
+                    <button class="btn card_btn"><a href="#">Read More</a></button>
+                  </div>
+                </div>
+              </li>
+              <li class="cards_item">
+                <div class="card">
+                  <div class="card_image"><img src="https://github.com/SourcemonqTechnologies/Website/blob/main/9095022.png?raw=true" alt="Web development" class="center"></div>
+                  <div class="card_content">
+                    <h2 class="card_title">Website Design & Development</h2>
+                    <p class="card_text">Website and web application to grow your business rapidly.</p>
+                    <button class="btn card_btn"><a href="#">Read More</a></button>
+                  </div>
+                </div>
+              </li>
+              <li class="cards_item">
+                <div class="card">
+                  <div class="card_image"><img src="https://github.com/SourcemonqTechnologies/Website/blob/main/64722.png?raw=true"alt="crm" class="center"></div>
+                  <div class="card_content">
+                    <h2 class="card_title">CRM & ERP Development</h2>
+                    <p class="card_text">Manage data ,clients and enterprises with powerful crm & erp.</p>
+                    <button class="btn card_btn"><a href="#">Read More</a></button>
+                  </div>
+                </div>
+              </li>
+              <li class="cards_item">
+                <div class="card">
+                  <div class="card_image"><img src="https://github.com/SourcemonqTechnologies/Website/blob/main/833314.png?raw=true"alt="E-commrerce" class="center"></div>
+                  <div class="card_content">
+                    <h2 class="card_title">E-commerce Website Development </h2>
+                    <p class="card_text">Enrich Your online shopping portal with e-commerce and grow rapidly.</p>
+                    <button class="btn card_btn"><a href="#">Read More</a></button>
+                  </div>
+                </div>
+              </li>
+              <li class="cards_item">
+                <div class="card">
+                  <div class="card_image"><img src="https://github.com/SourcemonqTechnologies/Website/blob/main/681494.png?raw=true" alt="Digital Marketting" class="center"></div>
+                  <div class="card_content">
+                    <h2 class="card_title">Digital Marketing</h2>
+                    <p class="card_text">Reach to your customers digitally with SEO,SMO,SMM on google,facebook and instragram, etc.</p>
+                    <button class="btn card_btn"><a href="#">Read More</a></button>
+                  </div>
+                </div>
+              </li>
+              <li class="cards_item">
+                <div class="card">
+                  <div class="card_image"><img src="https://github.com/SourcemonqTechnologies/Website/blob/main/Hr..jpg?raw=true" alt="Digital Marketting" class="center"></div>
+                  <div class="card_content">
+                    <h2 class="card_title">Hr Solutions</h2>
+                    <p class="card_text">At SourceMonq Hr solutions we have equipped into  a complete hr services under one roof . </p>
+                    <button class="btn card_btn"><a href="#">Read More</a></button>
+                  </div>
+                </div>
+              </li>
+              <li class="cards_item">
+                <div class="card">
+                  <div class="card_image"><img src="https://github.com/SourcemonqTechnologies/Website/blob/main/construction-transformed.jpeg?raw=true" alt="Digital Marketting" class="center"></div>
+                  <div class="card_content">
+                    <h2 class="card_title">Construction Management & Real Estate Management</h2>
+                    <p class="card_text">Building your Future with compact machinery & Advanced construction of new age equipment.</p>
+                    <button class="btn card_btn"><a href="#">Read More</a></button>
+                  </div>
+                </div>
+              </li>
+              <li class="cards_item">
+                <div class="card">
+                  <div class="card_image"><img src="https://github.com/SourcemonqTechnologies/Website/blob/main/bussiness_and_conslting-removebg-preview.png?raw=true" alt="Digital Marketting" class="center"></div>
+                  <div class="card_content">
+                    <h2 class="card_title">Business Consulting Services</h2>
+                    <p class="card_text"> At SourceMonq Consultancies we create best business strategies and operations to provide solution to client changing business needs.  </p>
+                    <button class="btn card_btn"><a href="#">Read More</a></button>
+                  </div>
+                </div>
+              </li>
+              <li class="cards_item">
+                <div class="card">
+                  <div class="card_image"><img src="https://github.com/SourcemonqTechnologies/Website/blob/main/placement.jpg?raw=true" alt="Digital Marketting" class="center"></div>
+                  <div class="card_content">
+                    <h2 class="card_title">Placement & Training</h2>
+                    <p class="card_text"> Providing IT Training and Placements. The key difference in our placement training is the individual attention that we give to each participant</p>
+                    <button class="btn card_btn"><a href="#">Read More</a></button>
+                  </div>
+                </div>
+              </li>
+              <li class="cards_item">
+                <div class="card">
+                  <div class="card_image"><img src="https://github.com/SourcemonqTechnologies/Website/blob/main/industrial%20training.png?raw=true" alt="Digital Marketting" class="center"></div>
+                  <div class="card_content">
+                    <h2 class="card_title">Industrial Training</h2>
+                    <p class="card_text">Whatever You're Into, Get Into Skills training with us &  Make The World A Better Place With Skills.</p>
+                    <button class="btn card_btn"><a href="#">Read More</a> </button>
+                  </div>
+                </div>
+              </li>
+              <li class="cards_item">
+                <div class="card">
+                  <div class="card_image"><img src="https://github.com/SourcemonqTechnologies/Website/blob/main/talent-removebg-preview.png?raw=true" alt="Digital Marketting" class="center"></div>
+                  <div class="card_content">
+                    <h2 class="card_title">Hire Or Find Talent</h2>
+                    <p class="card_text">We provide talents per project and per hour as for your needs to know more. </p>
+                    <button class="btn card_btn"><a  type="button" href="Hire or Talent">Read More</a></button>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          
+    </body>
+</html>
